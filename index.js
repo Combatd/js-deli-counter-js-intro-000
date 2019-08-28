@@ -22,7 +22,7 @@ function currentLine(line) {
   let i = 0
   while (i <= line.length) {
     if (i === line.length) {
-      prompt += ` ${i+1}. ${line[i]}`;
+      prompt += ` ${i}. ${line[i]}`;
     } else {
       prompt += ` ${i+1}. ${line[i]},`;
     }
