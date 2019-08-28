@@ -28,6 +28,6 @@ function currentLine(line) {
     prompt += ` ${i+1}. ${line[i]},`;
     i++;
   }
-  prompt += '.';
+  
   return prompt;
 }
