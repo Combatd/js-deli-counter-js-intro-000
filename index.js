@@ -20,9 +20,9 @@ function currentLine(line) {
   
   let prompt = `The line is currently:`;
   let i = 0
-  while (i <= line.length) {
-    if (i === line.length) {
-      prompt += ` ${i}. ${line[i]}`;
+  while (i < line.length) {
+    if (i === line.length - 1) {
+      prompt += ` ${i+1}. ${line[i]}`;
     } else {
       prompt += ` ${i+1}. ${line[i]},`;
     }
