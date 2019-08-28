@@ -23,9 +23,9 @@ function currentLine(line) {
   while (i <= line.length) {
     if (i === line.length) {
       prompt += ` ${i+1}. ${line[i]}`;
+    } else {
+      prompt += ` ${i+1}. ${line[i]},`;
     }
-    
-    prompt += ` ${i+1}. ${line[i]},`;
     i++;
   }
   
