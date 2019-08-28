@@ -21,7 +21,7 @@ function currentLine(line) {
   let prompt = `The line is currently:`;
   let i = 0
   while (i < line.length) {
-    prompt += ` ${ line[i]}`;
+    prompt += ` ${i}. ${line[i]}`;
     i++;
   }
   prompt += '.';
